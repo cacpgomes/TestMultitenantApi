@@ -1,4 +1,4 @@
-﻿<Properties StartupConfiguration="{7087939A-3EC6-4004-9940-FD88BD7EEBD9}|Default">
+﻿<Properties StartupConfiguration="{7087939A-3EC6-4004-9940-FD88BD7EEBD9}|Default" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.ItemProperties.TestMultitenantApi PreferredExecutionTarget="/Applications/Microsoft Edge.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="TestMultitenantApi/Context/CarContext.cs">
     <Files>
