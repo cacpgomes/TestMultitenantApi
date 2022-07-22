@@ -1,12 +1,12 @@
 ﻿using System;
 using Microsoft.AspNetCore.Mvc;
-using TestMultitenantApi.Context;
+using TestMultitenantApi.Data;
 using TestMultitenantApi.Model;
 
 namespace TestMultitenantApi.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("{__tenant__=}/[controller]")]
     public class CarController: ControllerBase
     {
         private readonly CarContext _carContext;
